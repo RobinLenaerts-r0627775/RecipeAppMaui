@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeAppMaui", "RecipeAppMaui\RecipeAppMaui.csproj", "{003AD721-D9CC-4F39-8BAE-E3146A993503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeAppShared", "RecipeAppShared\RecipeAppShared.csproj", "{29370E0F-8DE8-42B1-B196-D6AB336BEF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003AD721-D9CC-4F39-8BAE-E3146A993503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003AD721-D9CC-4F39-8BAE-E3146A993503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003AD721-D9CC-4F39-8BAE-E3146A993503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003AD721-D9CC-4F39-8BAE-E3146A993503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29370E0F-8DE8-42B1-B196-D6AB336BEF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29370E0F-8DE8-42B1-B196-D6AB336BEF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29370E0F-8DE8-42B1-B196-D6AB336BEF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29370E0F-8DE8-42B1-B196-D6AB336BEF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
