@@ -2,7 +2,7 @@
 using BlazorSharedUI.SharedServices;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorSharedUI.Pages
+namespace RecipeAppShared.Pages
 {
     public partial class Index
     {
@@ -21,4 +21,3 @@ namespace BlazorSharedUI.Pages
         }
     }
 }
-

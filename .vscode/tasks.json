@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/RecipeAppMaui.csproj",
+                "${workspaceFolder}/RecipeAppServer/RecipeAppServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/RecipeAppMaui.csproj",
+                "${workspaceFolder}/RecipeAppServer/RecipeAppServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/RecipeAppMaui.csproj"
+                "${workspaceFolder}/RecipeAppServer/RecipeAppServer.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
