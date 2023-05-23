@@ -7,6 +7,5 @@ namespace RecipeAppServer.Data
         public string? Instructions { get; set; }
         public string? Tags { get; set; }
         public string? ImageUrl { get; set; }
-
     }
 }

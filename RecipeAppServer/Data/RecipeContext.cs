@@ -4,7 +4,7 @@ namespace RecipeAppServer.Data
 {
     public class RecipeContext : HeadStartContext
     {
-        public RecipeContext(DbContextOptions<RecipeContext> options) : base(options)
+        public RecipeContext(DbContextOptions<HeadStartContext> options) : base(options)
         {
         }
 
