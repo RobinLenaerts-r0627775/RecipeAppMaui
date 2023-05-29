@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BlazorSharedUI.SharedServices
+﻿namespace RecipeAppShared.SharedServices
 {
     public interface IPlatformInfo
     {
@@ -8,4 +6,3 @@ namespace BlazorSharedUI.SharedServices
         public Task<string> GetWindowSize();
     }
 }
-

@@ -1,11 +1,15 @@
 
 
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.UseWebRoot("wwwroot");
+builder.WebHost.UseStaticWebAssets();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.Configure<RazorPagesOptions>(options => options.RootDirectory = "/Pages");
 
 var app = builder.Build();

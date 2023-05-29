@@ -27,4 +27,9 @@
   <ItemGroup>
     <None Remove="Pages\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\css\app.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
