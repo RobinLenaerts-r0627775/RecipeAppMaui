@@ -1,10 +1,5 @@
-
-
-using Microsoft.AspNetCore.Hosting.StaticWebAssets;
-
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseWebRoot("wwwroot");
 builder.WebHost.UseStaticWebAssets();
 
 // Add services to the container.

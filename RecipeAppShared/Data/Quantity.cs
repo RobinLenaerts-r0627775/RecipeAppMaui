@@ -1,4 +1,4 @@
-namespace RecipeAppServer.Data;
+namespace RecipeAppShared.Data;
 
 public class Quantity : BaseModel
 {

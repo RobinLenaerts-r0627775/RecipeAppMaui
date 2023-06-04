@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using RecipeAppMaui.Data;
+using RecipeAppShared.Data;
 
 namespace RecipeAppMaui;
 
@@ -18,8 +18,6 @@ public static class MauiProgram
 		builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-
-		builder.Services.AddSingleton<WeatherForecastService>();
 
 		return builder.Build();
 	}
