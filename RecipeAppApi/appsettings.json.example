@@ -1,0 +1,6 @@
+{
+    "AppVersion": "0.0.1",
+    "ConnectionStrings": {
+        "DefaultConnection": "server=fireflymedia.be;port=3306;database=RecipeV2;user=;password="
+    }
+}

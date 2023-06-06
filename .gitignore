@@ -767,7 +767,8 @@ FodyWeavers.xsd
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -787,3 +788,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+RecipeAppPWA/appsettings.Development.json
+RecipeAppPWA/appsettings.json
+RecipeAppApi/appsettings.json
+.gitignore
+RecipeAppApi/appsettings.Development.json

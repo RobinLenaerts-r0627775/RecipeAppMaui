@@ -1,4 +1,4 @@
-namespace RecipeAppShared.Data;
+namespace RecipeAppClassLib.Data;
 
 public class Ingredient : BaseModel
 {
