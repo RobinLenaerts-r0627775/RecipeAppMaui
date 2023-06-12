@@ -793,3 +793,4 @@ RecipeAppPWA/appsettings.json
 RecipeAppApi/appsettings.json
 .gitignore
 RecipeAppApi/appsettings.Development.json
+docker-compose.yml
